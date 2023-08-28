@@ -1,0 +1,751 @@
+
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- rerponsividade-->
+
+    <link rel="stylesheet" href="style/responsive.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.dafaut.min.css">
+    <script src="https://kit.fontawesome.com/2b83e3e45a.js" crossorigin="anonymous"></script>
+<!-- owl css--->
+ <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+ <link rel="stylesheet" href="style/owl/owl.theme.dafaut.min.css">
+
+
+
+    <title>NETLIX CLONE</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h2 class="logo">NETFLIX</h2>
+        <nav>
+           <a href="#">Inicio</a>
+           <a href="#">Séries</a>
+           <a href="#">Filmes</a>
+           <a href="#">Documentarios</a>
+        </nav>
+      </div>
+    </header>
+<main>
+     <div class="filme-principal">
+        <div class="container">
+          <h3 class="titulo">The Alienist</h3>
+           <p class="descricao">New York, 1896.Police commissioner Theodore Roosevelt brings together criminal psychologist <br>
+             Dr. Laszlo Kreizler,newspaper illustrator John Moore and secretary Sara Howard to investigate <br>
+             several murders of male prostitutes.<br> Watch the new seasson </p>
+
+
+           <!-- Modal  e botoes-->
+          <div class="botoes">
+              <br>
+                <a href="https://www.youtube.com/embed/YtzgFRBvRy8"><button role="button"  class="assistir" class="fa-solid fa-play"> ASSISTIR AGORA </button></a>
+               <button role="button" class="informacoes"  class="fa-solid fa-play" data-toggle="modal" data-target="#info"> MAIS INFORMAÇÕES</button>
+         </div>
+
+
+
+<!-- MODAL INFORMAÇOES TRAILER DA SERIE-->
+<div class="modal fade" id="info" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content bg-dark text-white" >
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">The Alienist -Angel of Darkness </h5>
+
+             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+             </button>
+      </div>
+
+      <div class="modal-body" height=500px>
+            <div class="row">
+                 <div class="col-sm-12">
+                        <div class="row">
+
+                              <div class="col-md-7 ml-auto"> <iframe  class= "video" type="text/html"   width="450" height="270"
+                              src="https://www.youtube.com/embed/YtzgFRBvRy8?autoplay=1&mute=1" frameborder="0" allowfullscreen>
+                              </iframe>
+                              <p >Sara Howard has opened her own private detective agency and is leading the charge on a brand-new case.
+                                 She reunites with Dr. Kreizler, the formidable alienist, and John Moore.Their investigation leads them
+                                  down a sinister path of murder and deceit, heading towards a dangerous and elusive killer.</p>
+                              </div>
+
+
+      <!-- Cast do fileme serie dentro do modal -->
+            <div class="col-md-5  ml-auto">
+              <div class="elenco">
+
+                <h4>Cast</h4><br>
+               <h4> Daniel Brühl</h4>
+                <h3>Laszlo Kreizler</h3><br>
+               <h4> Luke Evan</h4>
+               <h3>John Moore</h3><br>
+               <h4> Dakota Fanning</h4>
+               <h3>Sara Howard</h3><br>
+               <h4> Matthew Shear</h4>
+               <h3>Lucius Isaacson</h3><br>
+               <h4> Douglas Smith</h4>
+               <h3>Marcus Isaacson</h3>
+
+
+              </div>
+            </div>
+         </div>
+
+     <div class="modal-footer">
+      <p>
+      <a> 18 EPISODES-48min</a>
+      </p>
+       <button type="button" class="btn btn-secondary btn-dark" data-dismiss="modal">Close</button>
+       <a href="https://www.youtube.com/embed/YtzgFRBvRy8"><button type="button" class="btn btn-primary  btn-danger">Watch</button></a>
+     </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</main>
+
+<div class=" carrosel-filmes">
+  <div class="owl-carousel owl-theme">
+    <div class="item"> <img  class="box-filme"src="img/min 1.jpg" data-toggle="modal" data-target="#filme1"  alt=""> </div>
+    <div class="item"><img  class="box-filme"src="img/min 2.jpg"  data-toggle="modal" data-target="#filme2" alt=""> </div>
+    <div class="item"><img  class="box-filme"src="img/min 3.jpg"data-toggle="modal" data-target="#filme3" alt=""> </div>
+    <div class="item"><img  class="box-filme"src="img/min 4.jpg" data-toggle="modal" data-target="#filme4" alt=""> </div>
+    <div class="item"><img  class="box-filme"src="img/min 5.jpg" data-toggle="modal" data-target="#filme5" alt=""> </div>
+    <div class="item"><img  class="box-filme"src="img/min 6.jpg" data-toggle="modal" data-target="#filme6"alt=""> </div>
+    <div class="item"><img  class="box-filme"src="img/min 7.jpg" data-toggle="modal" data-target="#filme7" alt=""> </div>
+    <div class="item"><img  class="box-filme"src="img/min 8.jpg" data-toggle="modal" data-target="#filme8" alt=""> </div>
+    <div class="item"><img  class="box-filme"src="img/min 9.jpg" data-toggle="modal" data-target="#filme9" alt=""> </div>
+    <div class="item"><img  class="box-filme"src="img/min 10.jpg" data-toggle="modal" data-target="#filme10" alt=""> </div>
+  </div>
+</div>
+
+<!--Modal filme 1 Homem Aranha-->
+
+<div class="modal fade" id="filme1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content bg-dark text-white" >
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Spider-Man - No Way Home </h5>
+
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+      <div class="modal-body" height=500px>
+            <div class="row">
+                 <div class="col-sm-12">
+                        <div class="row">
+
+                              <div class="col-md-7 ml-auto"> <iframe  class= "video" type="text/html"   width="450" height="270"
+                              src="https://www.youtube.com/embed/JfVOs4VSpmA?autoplay=1&mute=1" frameborder="0" allowfullscreen>
+                              </iframe>
+                              <p> Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a
+                                super-hero.When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him
+                                to discover what it truly means to be Spider-Man.</p>
+                              </div>
+
+
+                                <!-- Cast do fileme serie dentro do modal -->
+                                      <div class="col-md-5  ml-auto">
+                                        <div class="elenco">
+
+                                          <h4>Cast</h4><br>
+                                         <h4> Tom Holland</h4>
+                                          <h3>Peter Parker</h3><br>
+                                         <h4> Zendaya</h4>
+                                         <h3>Michelle 'MJ' Jones</h3><br>
+                                         <h4> Benedict Cumberbatch</h4>
+                                         <h3>Doctor Strange</h3><br>
+                                         <h4> Jacob Batalon</h4>
+                                         <h3>Ned Leeds</h3><br>
+                                         <h4>...</h4>
+
+
+                                        </div>
+                                      </div>
+                                   </div>
+
+     <div class="modal-footer">
+      <p>
+        <a>2h 28m</a>
+      </p>
+       <button type="button" class="btn btn-secondary btn-dark" data-dismiss="modal">Close</button>
+       <a href="https://www.youtube.com/embed/pBvH8hvnJPk"><button type="button" class="btn btn-primary  btn-danger">Watch</button></a>
+     </div>
+                  </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+<!--modal filme 2sonic-->
+
+<div class="modal fade" id="filme2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content bg-dark text-white" >
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Sonic the Hedgehog</h5>
+
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+      <div class="modal-body" height=500px>
+            <div class="row">
+                 <div class="col-sm-12">
+                        <div class="row">
+
+                              <div class="col-md-7 ml-auto"> <iframe  class= "video" type="text/html"   width="450" height="270"
+                              src="https://www.youtube.com/embed/szby7ZHLnkA?autoplay=1&mute=1" frameborder="0" allowfullscreen>
+                              </iframe>
+                              <p >Powered with incredible speed, Sonic The Hedgehog embraces his new home on Earth.
+                                 That is, until Sonic sparks the attention of super-uncool evil genius Dr. Robotnik.
+                                  Now it’s super-villain vs. super-sonic in an all-out race across the globe to stop
+                                  Robotnik from using Sonic’s unique power for world domination.</p>
+                              </div>
+
+
+                          <!-- Cast do fileme serie dentro do modal -->
+                                <div class="col-md-5  ml-auto">
+                                  <div class="elenco">
+
+                                    <h4>Cast</h4><br>
+                                   <h4>Ben Schwartz</h4>
+                                    <h3>Sonic(The voice)</h3><br>
+                                   <h4> James Marsden</h4>
+                                   <h3>Tom Wachowski</h3><br>
+                                   <h4>Jim Carrey</h4>
+                                   <h3>Dr. Robotnik</h3><br>
+                                   <h4>Tika Sumpter</h4>
+                                   <h3>Maddie Wachowski</h3><br>
+                                   <h4> Natasha Rothwell</h4>
+                                   <h3>Rachel</h3>
+                                   <h3>...</h3>
+
+
+                                  </div>
+                                </div>
+                            </div>
+
+     <div class="modal-footer">
+      <p>
+         <a>  1h 39min </a>
+      </p>
+       <button type="button" class="btn btn-secondary btn-dark" data-dismiss="modal">Close</button>
+       <a href="https://www.youtube.com/embed/szby7ZHLnkA"><button type="button" class="btn btn-primary  btn-danger">Watch</button></a>
+     </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<!--modal serie 3 the walkin dead-->
+
+<div class="modal fade" id="filme3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content bg-dark text-white" >
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">The Walking Dead </h5>
+
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+      <div class="modal-body" height=500px>
+            <div class="row">
+                 <div class="col-sm-12">
+                        <div class="row">
+
+                              <div class="col-md-7 ml-auto"> <iframe  class= "video" type="text/html"   width="450" height="270"
+                              src="https://www.youtube.com/embed/AWneGSgjcow?autoplay=1&mute=1" frameborder="0" allowfullscreen>
+                              </iframe>
+                              <p> Sheriff's deputy Rick Grimes awakens from a coma to find a post-apocalyptic world dominated by
+                                flesh-eating zombies. He sets out to find his family and encounters many other survivors along the way.
+                              </p>
+                              </div>
+
+
+                        <!-- Cast do fileme serie dentro do modal -->
+                              <div class="col-md-5  ml-auto">
+                                <div class="elenco">
+
+                                 <h4>Cast</h4><br>
+                                 <h4> Andrew Lincoln</h4>
+                                 <h3>Rick Grimes</h3><br>
+                                 <h4> Norman Reedus</h4>
+                                 <h3>Daryl Dixon</h3><br>
+                                 <h4> Melissa McBride</h4>
+                                 <h3>Carol Peletier</h3><br>
+                                 <h4> Danai Gurira</h4>
+                                 <h3>Michonne</h3><br>
+                                 <h4>...</h4>
+
+                                </div>
+                              </div>
+                           </div>
+
+     <div class="modal-footer">
+      <p>
+           <a>42min</a>
+      </p>
+       <button type="button" class="btn btn-secondary btn-dark" data-dismiss="modal">Close</button>
+       <a href="https://www.youtube.com/embed/AWneGSgjcow"><button type="button" class="btn btn-primary  btn-danger">Watch</button></a>
+     </div>
+                  </div>
+              </div>
+           </div>
+        </div>
+      </div>
+    </div>
+<!-----projeto Adam--->
+
+<!-- MODAL INFORMAÇOES TRAILER DA SERIE-->
+<div class="modal fade" id="filme4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content bg-dark text-white" >
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">The Adam Project</h5>
+
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+      <div class="modal-body" height=500px>
+            <div class="row">
+                 <div class="col-sm-12">
+                        <div class="row">
+
+                              <div class="col-md-7 ml-auto"> <iframe  class= "video" type="text/html"   width="450" height="270"
+                              src="https://www.youtube.com/embed/IE8HIsIrq4o?autoplay=1&mute=1" frameborder="0" allowfullscreen>
+                              </iframe>
+                              <p> After accidentally crash-landing in 2022, time-traveling fighter pilot
+                                 Adam Reed teams up with his 12-year-old self on a mission to save the future.</p>
+                              </div>
+
+
+                      <!-- Cast do fileme serie dentro do modal -->
+                            <div class="col-md-5  ml-auto">
+                              <div class="elenco">
+
+                                <h4>Cast</h4><br>
+                               <h4> Ryan Reynolds</h4>
+                                <h3>Adam Reed</h3><br>
+                               <h4> Walker Scobell</h4>
+                               <h3>Young Adam</h3><br>
+                               <h4>Mark Ruffalo</h4>
+                               <h3>Louis Reed</h3><br>
+                               <h4> Jennifer Garner</h4>
+                               <h3>Ellie Reed</h3><br>
+                               <h4>...</h4>
+
+                              </div>
+                            </div>
+                         </div>
+
+     <div class="modal-footer">
+        <p>
+           <a>  1h 46min<a/></p>
+         <button type="button" class="btn btn-secondary btn-dark" data-dismiss="modal">Close</button>
+       <a href="https://www.youtube.com/embed/IE8HIsIrq4o"><button type="button" class="btn btn-primary  btn-danger">Watch</button></a>
+     </div>
+                  </div>
+               </div>
+           </div>
+        </div>
+      </div>
+    </div>
+<!------------ Matrix resurreição--------------->
+<!-- MODAL INFORMAÇOES TRAILER DA SERIE-->
+<div class="modal fade" id="filme5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content bg-dark text-white" >
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">The Matrix Resurrections </h5>
+
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+      <div class="modal-body" height=500px>
+            <div class="row">
+                 <div class="col-sm-12">
+                        <div class="row">
+
+                              <div class="col-md-7 ml-auto"> <iframe  class= "video" type="text/html"   width="450" height="270"
+                              src="https://www.youtube.com/embed/9ix7TUGVYIo?autoplay=1&mute=1  " frameborder="0" allowfullscreen>
+                              </iframe>
+                              <p> Plagued by strange memories, Neo's life takes an unexpected turn when he finds himself back inside the Matrix.</p>
+                              </div>
+
+
+                              <!-- Cast do fileme serie dentro do modal -->
+                                    <div class="col-md-5  ml-auto">
+                                      <div class="elenco">
+
+                                        <h4>Cast</h4><br>
+                                       <h4>Keanu Reeves</h4>
+                                        <h3>Thomas A./Neo</h3><br>
+                                       <h4> Carrie-Anne Moss</h4>
+                                       <h3>Tiffany</h3><br>
+                                       <h4>Yahya Abdul-Mateen II</h4>
+                                       <h3>Morpheus</h3><br>
+                                       <h4> Jessica Henwick</h4>
+                                       <h3>Bugs</h3><br>
+                                       <h4>...</h4>
+
+                                      </div>
+                                    </div>
+                                 </div>
+
+     <div class="modal-footer">
+      <p>
+        <a>  2h 28min</a>
+      </p>
+       <button type="button" class="btn btn-secondary btn-dark" data-dismiss="modal">Close</button>
+       <a href=""https://www.youtube.com/embed/9ix7TUGVYIo""><button type="button" class="btn btn-primary  btn-danger">Watch</button></a>
+     </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-------------sing 2 ---------------->
+<!-- MODAL INFORMAÇOES TRAILER DA SERIE-->
+<div class="modal fade" id="filme6" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content bg-dark text-white" >
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Spider-Man - No Way Home </h5>
+
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+      <div class="modal-body" height=500px>
+            <div class="row">
+                 <div class="col-sm-12">
+                        <div class="row">
+
+                              <div class="col-md-7 ml-auto"> <iframe  class= "video" type="text/html"   width="450" height="270"
+                              src="https://www.youtube.com/embed/AAnkc01ITpw?autoplay=1&mute=1" frameborder="0" allowfullscreen>
+                              </iframe>
+                              <p> Buster Moon and his all-star cast of performers prepare to launch their most dazzling stage extravaganza yet
+                                ...all in the glittering entertainment capital of the world. There's just one hitch:They first have to persuade
+                               the world's most reclusive rock star Clay Callaway-played by global music icon Bono.</p>
+                              </div>
+
+
+                        <!-- Cast do fileme serie dentro do modal -->
+                              <div class="col-md-5  ml-auto">
+                                <div class="elenco">
+
+                                  <h4>Cast</h4><br>
+                                 <h4> Tom Holland</h4>
+                                  <h3>Peter Parker</h3><br>
+                                 <h4> Zendaya</h4>
+                                 <h3>Michelle 'MJ' Jones</h3><br>
+                                 <h4> Benedict Cumberbatch</h4>
+                                 <h3>Doctor Strange</h3><br>
+                                 <h4> Jacob Batalon</h4>
+                                 <h3>Ned Leeds</h3><br>
+                                 <h4>...</h4>
+
+                                </div>
+                              </div>
+                           </div>
+
+     <div class="modal-footer">
+      <p>
+         <a> 48min</a>
+      </p>
+       <button type="button" class="btn btn-secondary btn-dark" data-dismiss="modal">Close</button>
+       <a href="https://www.youtube.com/embed/AAnkc01ITpw?"><button type="button" class="btn btn-primary  btn-danger">Watch</button></a>
+     </div>
+                  </div>
+               </div>
+           </div>
+        </div>
+      </div>
+    </div>
+<!----------clifford big red dog--------->
+
+<!-- MODAL INFORMAÇOES TRAILER DA SERIE-->
+<div class="modal fade" id="filme7" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content bg-dark text-white" >
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Clifford the Big Red Dog  </h5>
+
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+      <div class="modal-body" height=500px>
+            <div class="row">
+                 <div class="col-sm-12">
+                        <div class="row">
+
+                              <div class="col-md-7 ml-auto"> <iframe  class= "video" type="text/html"   width="450" height="270"
+                              src="https://www.youtube.com/embed/JfVOs4VSpmA?autoplay=1&mute=1" frameborder="0" allowfullscreen>
+                              </iframe>
+                              <p> As Emily struggles to fit in at home and at school, she discovers a small red puppy who is destined to
+                                become her best friend. When Clifford magically undergoes one heck of a growth spurt, becomes a gigantic
+                                 dog and attracts the attention of a genetics company, Emily and her Uncle Casey have to fight the
+                                  forces of greed as they go on the run across New York City..</p>
+                              </div>
+
+
+                      <!-- Cast do fileme serie dentro do modal -->
+                            <div class="col-md-5  ml-auto">
+                              <div class="elenco">
+
+                                <h4>Cast</h4><br>
+                               <h4> Darby Camp</h4>
+                                <h3>Emily Elizabeth</h3><br>
+                               <h4> Jack Whitehall</h4>
+                               <h3>Casey</h3><br>
+                               <h4> Izaac Wang</h4>
+                               <h3>Owen Yu</h3><br>
+                               <h4> John Cleese</h4>
+                               <h3>Mr. Bridwell</h3><br>
+                               <h4>...</h4>
+
+                              </div>
+                            </div>
+                         </div>
+
+     <div class="modal-footer">
+      <p>
+        <a>1h 37min</a>
+      </p>
+       <button type="button" class="btn btn-secondary btn-dark" data-dismiss="modal">Close</button>
+       <a href="https://www.youtube.com/embed/pBvH8hvnJPk"><button type="button" class="btn btn-primary  btn-danger">Watch</button></a>
+     </div>
+                  </div>
+              </div>
+           </div>
+        </div>
+      </div>
+    </div>
+<!-----------Dune-------------------->
+<!-- MODAL INFORMAÇOES TRAILER DA SERIE-->
+<div class="modal fade" id="filme8" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content bg-dark text-white" >
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Dune </h5>
+
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+      <div class="modal-body" height=500px>
+            <div class="row">
+                 <div class="col-sm-12">
+                        <div class="row">
+
+                              <div class="col-md-7 ml-auto"> <iframe  class= "video" type="text/html"   width="450" height="270"
+                              src="https://www.youtube.com/embed/8g18jFHCLXk?autoplay=1&mute=1" frameborder="0" allowfullscreen>
+                              </iframe>
+                              <p> Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding,
+                                 must travel to the most dangerous planet in the universe to ensure the future of his family and his people.
+                                  In existence-a commodity capable of unlocking humanity's greatest potential-only those who
+                                  can conquer their fear will survive..</p>
+                              </div>
+
+
+                      <!-- Cast do fileme serie dentro do modal -->
+                            <div class="col-md-5  ml-auto">
+                              <div class="elenco">
+
+                               <h4>Cast</h4><br>
+                               <h4> Timothée Chalamet</h4>
+                               <h3>Paul Atreidesr</h3><br>
+                               <h4> Rebecca Ferguson</h4>
+                               <h3>Lady Jessica Atreides</h3><br>
+                               <h4> Oscar Isaac</h4>
+                               <h3>Duke Leto Atreides</h3><br>
+                               <h4> Josh Brolin</h4>
+                               <h3>Gurney Halleck</h3><br>
+                               <h4>...</h4>
+
+
+                               </div>
+                            </div>
+                         </div>
+
+     <div class="modal-footer">
+      <p>
+       <a> 2h 35m</a>
+      </p>
+       <button type="button" class="btn btn-secondary btn-dark" data-dismiss="modal">Close</button>
+       <a href="https://www.youtube.com/embed/8g18jFHCLXk"> <button type="><button" class="btn btn-primary  btn-danger">Watch</button></a>
+     </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-------godzilla vs kong--------->
+
+<!-- MODAL INFORMAÇOES TRAILER DA SERIE-->
+<div class="modal fade" id="filme9" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content bg-dark text-white" >
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Godzilla vs. Kong </h5>
+
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+      <div class="modal-body" height=500px>
+            <div class="row">
+                 <div class="col-sm-12">
+                        <div class="row">
+
+                              <div class="col-md-7 ml-auto"> <iframe  class= "video" type="text/html"   width="450" height="270"
+                              src="https://www.youtube.com/embed/odM92ap8_c0?autoplay=1&mute=1" frameborder="0" allowfullscreen>
+                              </iframe>
+                              <p> In a time when monsters walk the Earth, humanity’s fight for its future sets Godzilla and Kong on a collision
+                                course that will see the two most powerful forces of nature on the planet collide in a spectacular battle for the ages.</p>
+                              </div>
+
+
+                          <!-- Cast do fileme serie dentro do modal -->
+                                <div class="col-md-5  ml-auto">
+                                  <div class="elenco">
+
+                                    <h4>Cast</h4><br>
+                                   <h4> Alexander Skarsgård</h4>
+                                    <h3>Dr. Nathan Lind</h3><br>
+                                   <h4> Millie Bobby</h4>
+                                   <h3>Madison Russell</h3><br>
+                                   <h4> Rebecca Hall</h4>
+                                   <h3>Doctor Strange</h3><br>
+                                   <h4> Brian Tyree Henry</h4>
+                                   <h3>Bernie Hayes</h3><br>
+                                   <h4>...</h4>
+
+                                  </div>
+                                </div>
+                             </div>
+
+     <div class="modal-footer">
+      <p>
+        <a> 1h 53m</a>
+      </p>
+       <button type="button" class="btn btn-secondary btn-dark" data-dismiss="modal">Close</button>
+       <a href="https://www.youtube.com/embed/odM92ap8_c0"><button type="button" class="btn btn-primary  btn-danger">Watch</button></a>
+     </div>
+
+                </div>
+             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<!------- red notice ----------->
+<!-- MODAL INFORMAÇOES TRAILER DA SERIE-->
+<div class="modal fade" id="filme10" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content bg-dark text-white" >
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Red Notice</h5>
+
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+      <div class="modal-body" height=500px>
+            <div class="row">
+                 <div class="col-sm-12">
+                        <div class="row">
+
+                              <div class="col-md-7 ml-auto"> <iframe  class= "video" type="text/html"   width="450" height="270"
+                              src="https://www.youtube.com/embed/Pj0wz7zu3Ms?autoplay=1&mute=1" frameborder="0" allowfullscreen>
+                              </iframe>
+                              <p> An Interpol-issued Red Notice is a global alert to hunt and capture the world's most wanted. But when
+                                 a daring heist brings together the FBI's top profiler and two rival criminals, there's no telling what will happen.</p>
+                              </div>
+
+
+                        <!-- Cast do fileme serie dentro do modal -->
+                              <div class="col-md-5  ml-auto">
+                                <div class="elenco">
+
+                                  <h4>Cast</h4><br>
+                                 <h4> Dwayne Johnson</h4>
+                                  <h3>John Hartley</h3><br>
+                                 <h4> Ryan Reynolds</h4>
+                                 <h3>Nolan Booth</h3><br>
+                                 <h4> Gal Gadot</h4>
+                                 <h3>Sarah Black</h3><br>
+                                 <h4> Ritu Arya</h4>
+                                 <h3>Inspector Urvashi</h3><br>
+                                 <h4>...</h4>
+
+                                </div>
+                              </div>
+                           </div>
+
+     <div class="modal-footer">
+      <p>
+         <a> 1h 58min</a>
+      </p>
+       <button type="button" class="btn btn-secondary btn-dark" data-dismiss="modal">Close</button>
+       <a href="https://www.youtube.com/embed/Pj0wz7zu3Ms"><button type="button" class="btn btn-primary  btn-danger">Watch</button></a>
+     </div>
+                  </div>
+              </div>
+           </div>
+        </div>
+      </div>
+    </div>
+
+
+<!--- arquivos javascript --->
+<script src="js/owl/jquery.min.js" type="text/javascript"></script>
+<script src="js/owl/owl.carousel.min.js" type="text/javascript"></script>
+<script src="js/owl/setup.js" type="text/javascript"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
