@@ -1,0 +1,193 @@
+:root{
+   --vermelho:#E50914;
+   --preta:#141414;
+   --imagem:url(" /img/capa1.jpg");
+}
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+background-color:var(--preta) ;
+font-family:"Arial",Times,serif;
+color: white;
+}
+.titulo{
+  color: white;
+}
+
+
+
+/*alinhas os elementos  em flex-box*/
+/* espaçamento de menus na horizontal distancia*/
+header .container{
+display:flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+background-color: black;
+
+
+}
+header {
+    background-color: black;
+}
+
+header .logo{
+  margin-left:  5 px;
+  color: var(--vermelho);
+  font-family: 'Lucida Sans',Times;
+  font-size: 40px;
+
+
+
+}
+header nav a{
+  background-color: black;
+  text-decoration: none;
+  font-family: Corbel;
+  color: #aaa;
+  margin-right: 10px;
+}
+
+/* para quando passar o moute alterar a cor */
+
+header nav a:hover{
+  color:#fff;
+}
+
+.modal-content{
+background: linear-gradient(rgba(0, 0, 0.7, 0.6), rgba(0, 0, 0.7, 0.6));
+}
+.modal-dialog-centered{
+  width: 500px;
+}
+
+
+
+
+/* FILME PRINCIPAL*/
+.filme-principal{
+  font-size:16px;
+  background: url('/img/filme.jpg');
+  background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://www.labottegadihamlin.it/wp-content/uploads/2020/11/the-alienist-2-870x500-1605537378.jpg');
+  height: 500px;
+  background-size:cover;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items: flex-start;
+
+}
+/*padding lagura dos botoes ) transition(animaçoes)*/
+ .assistir, .informacoes {
+  background-color:rgba(0, 0, 0, .50);
+  border: none;
+  padding: 15px;
+  margin-right: 10px;
+  color:white;
+  font-family:Corbel;
+  font-size: 12px
+  cursor:pointer;
+  transition: .3s ease all;
+
+
+}
+.descricao{
+  color: white;
+}
+.assistir:hover,.informacoes:hover{
+  background-color: white;
+  color: black;
+}
+ .botoes i{
+   margin-right: 5px;
+ }
+
+.filme-principal .descricao{
+  margin-bottom: 80px;
+}
+.titulo{
+  margin-top: 15%px;
+  font-family:Britannic,Times;
+  font-size: 40px;
+
+}
+.container{
+  margin-left: 20px;
+}
+
+/* classe para tamanho das imagens do carousel*/
+
+.box-filme{
+  height: 100%;
+  width: 100%
+  display:block;
+}
+.carrousel-filme{
+   margin-top: 5px;
+   background-color: black;
+}
+
+.descricao-resumida  p{
+  font-size:16px;
+  font-family: Franklin Gothic ;
+  text-align: justify;
+}
+.descricao-resumida img{
+  height: 50px;
+  width: 40px;
+}
+
+.descricao-resumida a{
+font-size:12px;
+font-weight: bold;
+text-align: justify;
+}
+
+.video{
+  padding-top: 20px;
+}
+
+.modal-body p{
+  line-height: 0.9;
+  font-size:12px;
+  text-align: justify;
+}
+
+.elenco h4{
+  line-height: 0.2;
+  font-size: 15px;
+  font-weight: bold;
+  text-align:left;
+
+}
+.elenco h3{
+  font-size:10px;
+  line-height: 0.5;
+  text-align:left;
+}
+.elenco{
+padding-top:30px;
+}
+
+.modal-footer p{
+  padding-left: -10;
+  padding-right: 385px;
+}
+.imglivre{
+  height: 30px;
+  width: 40px;
+}
+
+.owl-theme{
+  background-color: black;
+}
+
+.modal fade{
+  background-color:black;
+}
